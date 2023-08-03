@@ -1,0 +1,230 @@
+.header{ 
+    height:8vw;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    position: fixed;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    z-index: 100;
+}
+.header p{
+    font-size: 1vw;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
+    cursor:pointer;
+    font-size: 1vw;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+.left-section{
+    display: flex;
+    font-size: 1vw;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    justify-content: space-evenly;
+    width: 26.042vw; 
+    color: white;
+    align-items: center;
+ 
+}
+.left-section:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.dropbutton{
+background-color: #000000;
+border: none;
+color: white;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 8.333vw;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: white;
+    padding: 0.5vw 0.5vw;
+    text-decoration: none;
+    display: block; background-color: #000000;
+  }
+  
+  .dropdown-content a:hover {background-color: #000000;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+/*u need to put display flex to use align items or justifycontent*/
+.center-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20vw;
+}
+.Logo{
+    height: 7.813vw;
+}
+@media ( max-width:767px){
+    .header{
+        height: 14vw;
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+    }
+    .header p{
+        font-size: 2vw;
+        font-weight: 400;
+    }
+    .Logo{
+        height: 10vw;
+    }
+    .left-section{
+        font-weight: 500;
+        font-size: 1vw;
+    }
+    .header a{
+        font-size: 2vw;
+        font-weight: 500;
+    }
+ 
+}
+body{
+    padding-top:10.417vw;
+    margin:0px;
+    
+}
+p{
+    font-size: 1vw;
+    font-family: 'Raleway', sans-serif;
+}
+a{
+    font-size: 1vw;
+    font-family: 'Raleway', sans-serif;
+    color: rgba(91, 91, 97, 0.788);
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6vw 10vw;
+    margin-bottom: 5vw;
+    margin-top: 3vw;
+    
+    
+}
+
+.Grid{
+    width: 25vw;
+    margin-left: 10vw;
+}
+.img-div{
+    height: 20vw;
+    width: 25vw;
+}
+.img-div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.text{
+    width: 25vw;
+}
+.button{
+    width: 6vw;
+    height: 2.5vw;
+    border: none;
+    background-color: black;
+    color: white;
+}
+.button p{
+    text-align: center;
+    font-size: 0.7vw;
+}
+.bottom-section a{
+    color: white;
+    text-decoration: none;
+    cursor:pointer;
+    font-size: 1vw;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+.bottom-section{
+    background-color: rgb(0, 0, 0);
+    height: 8vw;
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    text-align: start;
+    margin-top: 2vw;
+}
+.item{
+        flex: 1;
+        text-align: center;
+}
+footer{
+    text-align: center;
+    height: 2vw;
+}
+.Level-up{
+    width: 10vw;
+    height: 8vw;
+    margin-left: 2vw;
+}
+.Level-up img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+@media ( max-width:767px){
+    main{display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15vw;
+    margin-bottom: 10vw;
+    }
+    .Grid{
+        margin-left: 0%;
+        margin-right: 30vw;
+    }
+
+    p{
+     font-size: 2vw;
+    }
+    a{
+        font-size: 2vw;
+    }
+    .button{
+        width: 10vw;
+        height: 4vw;
+    }
+    .button p{
+        font-size: 1vw;
+    }
+    .img-div{
+        width: 60vw;
+        height: 40vw;
+        margin-bottom: 5vw;
+       
+    }
+    .bottom-section{
+        height: 15vw;
+    }
+   
+}
