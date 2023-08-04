@@ -243,4 +243,7 @@ body{
             height: 14vw;
             
         }
+     .bottom-section a{
+        font-size:3vw
+    }
     }
