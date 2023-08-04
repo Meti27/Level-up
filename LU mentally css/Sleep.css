@@ -254,5 +254,8 @@ footer{
             height: 14vw;
             
         }
+        .bottom-section a{
+            font-size: 2.6vw;
+        }
         }
     

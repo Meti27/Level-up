@@ -226,5 +226,7 @@ footer{
     .bottom-section{
         height: 15vw;
     }
-   
+    .bottom-section a{
+        font-size: 2.6vw;
+    }
 }
