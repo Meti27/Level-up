@@ -19,6 +19,45 @@ h2{
     font-size: 1.563vw;
     font-weight: 700;
 }
+.carousel {
+    width: 100%;
+    max-width: 80vw; /* Adjust as needed */
+    height: 40vw;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    background-color: black;
+}
+
+.carousel-item {
+    display: none;
+    position: relative;
+}
+
+.carousel-image {
+    width: 100%;
+    opacity: 50%;
+}
+.carousel-text-box {
+    position: absolute;
+    top: 20vw;
+    left: 5vw;
+    padding: 10px;
+    color: white;
+    width: 15vw;
+    font-size: 2vw;
+    font-weight: 700;
+}
+
+.read-more-button {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #747474;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
 .about-div{
     padding-left: 20.833vw;
     padding-right: 20.833vw;
@@ -122,6 +161,13 @@ footer{
             
         }
         .bottom-section a{
-            font-size: 2.6vw;
+            font-size: 2vw;
+        }
+        .carousel{
+            margin-top: 5vw;
+        }
+        .carousel-text-box{
+            top: 5vw;
+            width: 30vw;
         }
 }
